@@ -1,8 +1,8 @@
 {
-  "name": "victor-hugo",
+  "name": "stoma-pozsonyi-hugo",
   "version": "1.0.0",
-  "description": "Victor Hugo is a Hugo boilerplate for creating truly epic websites!",
-  "repository": "netlify/victor-hugo",
+  "description": "Stoma Pozsonyi is business site for dental ambulance.",
+  "repository": "ofabry/stoma-pozsonyi",
   "main": "index.js",
   "scripts": {
     "lint": "eslint src",
@@ -19,7 +19,7 @@
     "build:hugo:preview": "npm run build:hugo -- -D -F",
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js"
   },
-  "author": "",
+  "author": "Ondrej Fabry",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.11.6",

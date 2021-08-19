@@ -1,13 +1,10 @@
 ---
-title: Our Coffee
-type: products
+title: Naše služby
+type: sluzby
 image: /img/products-jumbotron.jpg
-heading: What we offer
+heading: Naše služby
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Ponúkané služby
 intro:
   blurbs:
     - image: /img/illustrations-coffee.svg
@@ -37,12 +34,14 @@ intro:
         space where you can hang out with fellow coffee lovers and learn about
         coffee making techniques. All of the artwork on display there is for
         sale. The full price you pay goes to the artist.
-  heading: What we offer
+  heading: Čo ponúkame
   description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+    Poskytujeme ošetrenie zubných kazov, základné ošetrenie koreňových kanálikov, 
+    malé RTG snímky, ošetrenie detí, dentálnu hygienu, bielenie zubov, základné 
+    chirurgické ošetrenie (vyberanie zubov a koreňov, ak sú prístupné z úst), 
+    zubné náhrady fixné (korunky, mostíky) a snímateľné (čiastočné a totálne protézy), 
+    konzultácie ohľadom možností rekonštrukcie chrupu a zubných strojčekov. 
+    Neposkytujeme: Zubné strojčeky, implantáty, komplexné chirurgické ošetrenie (vyberanie zubov múdrosti, ak sú neni prístupné z úst; plastiky).
 main:
   heading: Great coffee with no compromises
   description: >
