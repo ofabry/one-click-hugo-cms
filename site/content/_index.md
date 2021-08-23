@@ -1,7 +1,7 @@
 ---
 title: STOMA POZSONYI
-subtitle: Vaša zubná ambulancia vo Veľkých Ǔľanoch.
-image: img/ambulancia-meta.jpg
+subtitle: Vaša zubná ambulancia vo Veľkých Ǔľanoch
+image: img/ambulancia.jpg
 blurb:
   heading: Služby
   text: "Poskytujeme ošetrenie zubných kazov, základné ošetrenie koreňových

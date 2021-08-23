@@ -1,6 +1,6 @@
 ---
 title: Naše služby
-type: sluzby
+type: products
 image: /img/products-jumbotron.jpg
 heading: Naše služby
 description: >-

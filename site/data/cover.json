@@ -1,0 +1,10 @@
+{
+    "title": "STOMA POZSONYI",
+    "description": "Vaša zubná ambulancia vo Veľkých Ǔľanoch.",
+    "image": "ambulancia.jpg",
+    "button": {
+        "text": "Kontaktujte nás",
+        "href": "/#contact"
+    },
+    "logo": "logo-zub.png"
+}

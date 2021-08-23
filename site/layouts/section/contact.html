@@ -3,18 +3,40 @@
 <div class="ph3 bg-off-white">
 	<div class="center mw6 pv3">
 
-		<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">
+		{{ with .Params.logo }}
+		<img src="{{ . }}" alt="" class="db w5 pv4">
+		{{ end }}
 
 		{{ .Content }}
 
-		<div class="flex-ns mb3">
-	        	{{ range .Params.contact_entries }}
-				<div>
-					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
-					<p>{{ .text }}</p>
-				</div>
-			{{ end }}
+		<!-- Contact Entries -->
+		<div class="mb3">
+		{{ range .Params.contact_entries }}
+			<div class="mb3">
+				{{ if eq .type "email" }}
+				<h4 class="f5 b lh-title mb1 primary"><i class="fa fa-at"></i> {{ .heading }}</h4>
+				<a class="f5" href="mailto:{{ .text }}">{{ .text }}</a>
+				{{ else if eq .type "phone" }}
+				<h4 class="f5 b lh-title mb1 primary"><i class="fa fa-phone"></i> {{ .heading }}</h4>
+				<a class="f5" href="tel:{{ .text }}">{{ .text }}</a>
+				{{ else if eq .type "address" }}
+				<h4 class="f5 b lh-title mb1 primary"><i class="fa fa-map-marker-alt"></i> {{ .heading }}</h4>
+				<p class="f5">{{ .text }}</p>
+				{{ else }}
+				<h4 class="f5 b lh-title mb1 primary">{{ .heading }}</h4>
+				<p class="f5">{{ .text }}</p>
+				{{ end }}
+			</div>
+		{{ end }}
 		</div>
+
+		<!-- Google Map -->
+		{{ with .Params.google_map }}
+		<div class="db mb3 center">
+			<h4 class="f5 b lh-title mb2 primary"><i class="fa fa-map-marked-alt"></i> Map</h4>
+			<iframe src="{{ . }}" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</div>
+		{{ end }}
 
 		{{ partial "contact-form" . }}
 

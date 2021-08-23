@@ -1,7 +1,9 @@
 baseurl = "/"
 languageCode = "sk-SK"
 languageLang = "sk"
-title = "StomaPozsonyi"
+title = "STOMA POZSONYI"
+
+googleAnalytics = "G-5D6KFRTYJQ"
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details:
