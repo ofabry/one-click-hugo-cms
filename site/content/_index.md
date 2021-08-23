@@ -1,6 +1,6 @@
 ---
 title: STOMA POZSONYI
-subtitle: Vaša zubná ambulancia vo Veľkých Ǔľanoch
+subtitle: Vaša zubná ambulancia vo Veľkých Úľanoch
 image: img/ambulancia.jpg
 blurb:
   heading: Služby
