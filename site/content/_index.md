@@ -3,15 +3,11 @@ title: STOMA POZSONYI
 subtitle: Vaša zubná ambulancia vo Veľkých Úľanoch
 image: img/ambulancia.jpg
 blurb:
-  heading: Služby
+  heading: Čo u nás poskytujeme
   text: "Poskytujeme ošetrenie zubných kazov, základné ošetrenie koreňových
     kanálikov, malé RTG snímky, ošetrenie detí, dentálnu hygienu, bielenie
-    zubov, základné chirurgické ošetrenie (vyberanie zubov a koreňov, ak sú
-    prístupné z úst), zubné náhrady fixné (korunky, mostíky) a snímateľné
-    (čiastočné a totálne protézy), konzultácie ohľadom možností rekonštrukcie
-    chrupu a zubných strojčekov. Neposkytujeme: Zubné strojčeky, implantáty,
-    komplexné chirurgické ošetrenie (vyberanie zubov múdrosti, ak sú neni
-    prístupné z úst; plastiky)."
+    zubov, základné chirurgické ošetrenie, zubné náhrady fixné a snímateľné, 
+    konzultácie ohľadom možností rekonštrukcie chrupu a zubných strojčekov."
 intro:
   heading: What we offer
   text: Kaldi is the ultimate spot for coffee lovers who want to learn about their

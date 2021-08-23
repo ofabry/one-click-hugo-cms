@@ -4,13 +4,15 @@
 	<div class="center mw6 pv3">
 
 		{{ with .Params.logo }}
-		<img src="{{ . }}" alt="" class="db w5 pv4">
+		<img src="{{ . }}" alt="" class="db w5 pv4 center">
 		{{ end }}
 
 		{{ .Content }}
 
+		<h4 class="f3 lh-title mb3">Kontakty:</h4>
+
 		<!-- Contact Entries -->
-		<div class="mb3">
+		<div class="mb3 pl1">
 		{{ range .Params.contact_entries }}
 			<div class="mb3">
 				{{ if eq .type "email" }}

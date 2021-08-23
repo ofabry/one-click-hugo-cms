@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-    <title>{{ .Title }} | {{ $.Site.Title }}</title>
+    <title>{{- if not .IsHome }}{{ with .Title }}{{ . }} | {{ end }}{{ end -}}{{ $.Site.Title }}</title>
     {{- if getenv "CONTEXT" }}
     {{ $baseurl := print (cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL")) }}
     <base href="{{ $baseurl }}">

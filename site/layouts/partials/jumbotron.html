@@ -22,19 +22,18 @@
     /*margin-top: -80px;*/
     height: 500px;
     background: rgba(0,0,0,0.6);
-    background-image: url('{{.imageUrl}}');
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4)),  url('{{.imageUrl}}');
+    background: radial-gradient(circle, rgba(143,204,217,0.1) 0%, rgba(90,90,115,0.3) 54%, rgba(26,26,29,0.5) 100%), url('{{.imageUrl}}');
     background-position: center;
     background-attachment: inherit;
     background-size: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 95%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     animation: breath 25s ease-in-out;
   }
 
   @keyframes breath {
     0%   { background-position: top; }
     50%  { background-position: bottom; }
-    100% { , background-position: center; }
+    100% { background-position: center; }
   }
   .cover .sub-heading{
     opacity: .6;
