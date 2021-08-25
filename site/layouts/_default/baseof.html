@@ -51,6 +51,36 @@
       gtag('config', '{{ . }}');
     </script>
     {{ end }}
+
+    <style>
+        .features .icon {
+            display:inline-block;
+            width:60px;
+            height:60px;
+            font-size:30px;
+            line-height:60px;
+            border-radius:100px;
+            color:#fff
+        }
+        .features:nth-of-type(1) .icon {
+            background:linear-gradient(to bottom right, #32d6fb 0%, #5558ed 100%);
+            box-shadow:0 8px 10px #96eafd;
+        }
+        .features:nth-of-type(2) .icon {
+            background:linear-gradient(to bottom right, #fc5f3c 0%, #ff55d3 100%);
+            box-shadow:0 8px 10px #feb1a0
+        }
+        .features:nth-of-type(4) .icon {
+            background:linear-gradient(to bottom right, #1cf196 0%, #36a6bf 100%);
+            box-shadow:0 8px 10px #7cf7c2
+        }
+        .features:nth-of-type(3) .icon {
+            background:linear-gradient(to bottom right, #fad470 0%, #f96933 100%);
+            box-shadow:0 8px 10px #fdf2d3
+        }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2/build/pdf.min.js"></script>
 </head>
 
 <body class="sans-serif">

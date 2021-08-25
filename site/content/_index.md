@@ -3,24 +3,26 @@ title: STOMA POZSONYI
 subtitle: Vaša zubná ambulancia vo Veľkých Úľanoch
 image: img/ambulancia.jpg
 blurb:
-  heading: Čo u nás poskytujeme
-  text: "Poskytujeme ošetrenie zubných kazov, základné ošetrenie koreňových
-    kanálikov, malé RTG snímky, ošetrenie detí, dentálnu hygienu, bielenie
-    zubov, základné chirurgické ošetrenie, zubné náhrady fixné a snímateľné, 
-    konzultácie ohľadom možností rekonštrukcie chrupu a zubných strojčekov."
+  heading: Ako funguje naša ambulancia
+  text: "Na každý zákrok musí byť pacient objednaný, kontaktujte nás a objednajte sa.
+    Bolestivé a akútne prípady ošetrujeme vždy prvú hodinu z našej pracovnej doby 
+    (7.00 až 8.00 a v stredy medzi 10.00 až 11.00).
+    Vzhľadom na veľký počet pacientov objednávame na 2 mesiace dopredu."
 intro:
-  heading: What we offer
-  text: Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone.
+  heading: Aké služby poskytujeme
+  text: Poskytujeme ošetrenie zubných kazov, základné ošetrenie koreňových
+    kanálikov, malé RTG snímky, ošetrenie detí, dentálnu hygienu, bielenie
+    zubov, základné chirurgické ošetrenie, zubné náhrady fixné a snímateľné,
+    konzultácie ohľadom možností rekonštrukcie chrupu a zubných strojčekov.
 products:
-  - image: img/illustrations-coffee.svg
-    text: We sell green and roasted coffee beans that are sourced directly from
-      independent farmers and farm cooperatives. We’re proud to offer a variety
-      of coffee beans grown with great care for the environment and local
-      communities. Check our post or contact us directly for current
-      availability.
+  - heading: Záchovná stomatológia 
+    icon: tooth
+  - heading: Chirurgia
+    icon: user-md
+  - heading: Dentálna hygiena
+    icon: teeth-open
+  - heading: Protetika a estetika zubov
+    icon: grimace
 values:
   heading: Our values
   text: Coffee is an amazing part of human culture but it has a dark side too –

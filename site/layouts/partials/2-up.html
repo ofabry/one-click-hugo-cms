@@ -3,13 +3,21 @@
     <h2 class="f2 b lh-title mb2">{{.intro.heading}}</h2>
     <p class="mb4 mw6">{{.intro.text}}</p>
 
-    <div class="flex-ns mhn2-ns mb3">
+    <div class="flex-ns mhn2-ns mb3 tc">
       {{ range .products }}
-      <div class="ph2-ns w-50-ns">
+      <div class="ph2-ns w-50-ns features">
+        {{ if .icon }}
+        <div class="icon mb2 tc"><i class="fa fa-{{ .icon }}"></i></div>
+        {{end}}
+        {{ if .heading }}
+        <h3 class="f4 lh-title">{{.heading}}</h3>
+        {{end}}
+        {{ if .image }}
         <img src="{{.image}}" alt="" class="center db mb3" style="width: 240px">
-        <p>{{.text}}</p>
+          {{end}}
+        <p class="f5">{{.text}}</p>
       </div>
-      {{ end }}
+        {{ end }}
     </div>
 
     <div class="tc">
