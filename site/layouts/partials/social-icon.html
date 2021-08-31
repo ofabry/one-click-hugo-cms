@@ -1,5 +1,3 @@
-<li class="dib raise">
-  <a href="https://{{ .type }}.com/{{ .user }}" class="link db relative br-100 pa2">
-    <i class="fab fa-{{ .type }}"></i>
-  </a>
-</li>
+<a title="{{ .user }}" href="https://{{ .type }}.com/{{ .user }}" class="link db relative">
+  <i class="fab fa-{{ .type }}"></i> {{ if .showName }}{{ .user }}{{ end }}
+</a>
