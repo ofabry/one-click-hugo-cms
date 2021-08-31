@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ $.Site.LanguageCode }}">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-    <base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
+    {{ $baseHref := cond (ne "" (getenv "CONTEXT")) (cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL")) (print $.Site.BaseURL) -}}
+    <base href="{{ $baseHref }}">
     <title>{{- if not .IsHome }}{{ with .Title }}{{ . }} | {{ end }}{{ end -}}{{ $.Site.Title }}</title>
 
     <!-- Favicons -->
@@ -76,7 +76,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2/build/pdf.min.js"></script>
 </head>
-
 <body class="sans-serif">
 
     {{ block "header" . }}{{ partial "nav" . }}{{end}}
@@ -93,7 +92,7 @@
 
     {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 
-    {{ $script := .Site.Data.webpack.main }}
+    {{ $script := .Site.Data.webpack.main -}}
     {{ with $script.js }}
       <script src="{{ relURL . }}"></script>
     {{ end }}
@@ -101,5 +100,4 @@
     <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
 
 </body>
-
 </html>
