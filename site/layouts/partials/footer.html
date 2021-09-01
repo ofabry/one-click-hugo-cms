@@ -8,33 +8,33 @@
 		<div class="flex-ns justify-between">
 			<div>
 				<h3 class="f4 b lh-title mb1 primary">STOMA POZSONYI</h3>
+				<!-- Nav -->
 				<ul class="mb3 f5">
-					<li><a href="/" class="link">Úvod</a></li>
-					<li><a href="/products" class="link">Služby</a></li>
-					<li><a href="/values" class="link">Cenník</a></li>
-					<li><a href="/values" class="link">O nás</a></li>
-					<li><a href="/post" class="link">Blog</a></li>
-					<li><a href="/contact" class="link">Kontakt</a></li>
+					{{- $currentPage := . -}}
+					{{ range .Site.Menus.main -}}
+					<li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+						<a class="link" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+					</li>
+					{{- end }}
 				</ul>
 			</div>
 
 			<div>
 				<ul class="mhn2">
-				{{ range $key, $value := .Site.Data.social }}
+				{{ range .Site.Data.social }}
 					<li class="raise">
-					{{ partial "social-icon" (dict "type" $key "user" $value "showName" false) }}
+					{{ partial "social-icon" (dict "type" .type "profile" .profile "showName" false) }}
 					</li>
 				{{ end }}
 				</ul>
 			</div>
 		</div>
 
-		<small style="font-size: 16px;color: dimgray;">© 2021</small>
+		<small style="font-size: 16px;color: dimgray;">{{.Site.Copyright}}</small>
 	</div>
 
 </footer>
 
-{{ partial "svg" . }}
 
 {{ $app := .Site.Data.webpack.app }}
 {{ with $app.js }}

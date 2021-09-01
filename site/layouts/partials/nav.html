@@ -1,17 +1,22 @@
 <nav class="overflow-x-scroll overflow-x-visible-ns flex justify-between items-center center bg-off-white divider-grey relative">
 
 	<!-- Logo -->
-	<a href="/" class="pl4 db mr4 h-100 w4 flex-none">
-		<img src="/img/logo-black.png" alt="StomaPozsonyi logo" class="br0 db mb0 w-100"/>
-	</a>
+
+	<div class="pl4 db mr4 flex">
+		<a href="/" class="h-100 w4 pr4">
+			<img src="/img/logo-black.png" alt="StomaPozsonyi logo" class="br0 db mb0 w-100"/>
+		</a>
+		{{ partial "language-selector.html" . }}
+	</div>
 
 	<!-- Primary Nav -->
 	<ul class="pr4 flex b grey-4">
-		<li><a href="/about" class="pa3 no-underline db">O nás</a></li>
-		<li><a href="/products" class="pa3 no-underline db">Služby</a></li>
-		<li><a href="/values" class="pa3 no-underline db">Cenník</a></li>
-		<li><a href="/post" class="pa3 no-underline db">Blog</a></li>
-		<li><a href="/contact" class="pa3 no-underline db">Kontakt</a></li>
+		{{- $currentPage := . -}}
+		{{ range .Site.Menus.main -}}
+		<li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+			<a class="pa3 no-underline db" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+		</li>
+		{{- end }}
 	</ul>
 
 </nav>

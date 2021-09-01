@@ -1,0 +1,13 @@
+# Pagination
+prevPage:
+  other: "Prev"
+nextPage:
+  other: "Next"
+prevPost:
+  other: "Prev"
+nextPost:
+  other: "Next"
+showMore:
+  other: "Show more"
+latestPosts:
+  other: "Latest posts"

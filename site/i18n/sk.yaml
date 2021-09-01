@@ -1,0 +1,13 @@
+# Pagination
+prevPage:
+  other: "Predošlá"
+nextPage:
+  other: "Ďaľšia"
+prevPost:
+  other: "Predošlý"
+nextPost:
+  other: "Ďaľší"
+showMore:
+  other: "Zobraziť viac"
+latestPosts:
+  other: "Najnovšie články"

@@ -1,4 +1,10 @@
-{
-    "facebook": "stoma.pozsonyi",
-    "instagram": "stomavp"
-}
+[
+    {
+        "type": "facebook",
+        "profile": "stoma.pozsonyi"
+    },
+    {
+        "type": "instagram",
+        "profile": "stomavp"
+    }
+]

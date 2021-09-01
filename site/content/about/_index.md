@@ -1,5 +1,6 @@
 ---
 title: O nás
+slug: o-nas
 team:
   - name: MDDr. Vojtech Pozsonyi
     position: zubný lekár
@@ -8,3 +9,4 @@ team:
   - name: Janette Mészarosová
     position: sestrička
 ---
+### Toto je náš tím odborníkov:

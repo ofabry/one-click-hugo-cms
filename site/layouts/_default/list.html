@@ -4,10 +4,10 @@
 
 <div class="mw7 center">
 
-    <h2 class="f2 b lh-title pt3">Aktuality</h2>
+  <h2 class="f2 b lh-title pt3">Blog</h2>
 
   <ul class="flex-ns flex-wrap mhn1-ns pa3">
-      {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
+      {{ range (.Paginator 4).Sites.First.Pages.ByPublishDate.Reverse }}
           <div class="w-50-ns ph1-ns flex">
             {{ .Render "li" }}
           </div>

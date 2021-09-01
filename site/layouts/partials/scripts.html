@@ -1,0 +1,9 @@
+
+<!-- Webpack scripts -->
+{{ $script := .Site.Data.webpack.main -}}
+{{ with $script.js }}
+<script src="{{ relURL . }}"></script>
+{{ end }}
+
+<!-- Font Awesome -->
+<script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>

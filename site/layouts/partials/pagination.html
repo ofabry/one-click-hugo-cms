@@ -3,13 +3,13 @@
 <nav class="cf pa3">
     {{ if .Paginator.HasNext }}
     <a class="fl dib link dim black f6 f5-ns b pa2" title="Predošlá strana" href="{{ .Paginator.Next.URL }}">
-        &larr; Predchádzajúci
+        &larr; {{ i18n "prevPage" }}
     </a>
     {{ end }}
     <div class="pagination">
         {{ if .Paginator.HasPrev }}
         <a class="fl dib link dim black f6 f5-ns b pa2" title="Ďaľšia strana" href="{{ .Paginator.Prev.URL }}">
-            Ďaľší &rarr;
+            {{ i18n "nextPage" }} &rarr;
         </a>
         {{ end }}
     </div>

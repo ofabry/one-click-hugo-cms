@@ -17,7 +17,7 @@ intro:
 products:
   - heading: Záchovná stomatológia 
     icon: tooth
-  - heading: Chirurgia
+  - heading: Stomatologická chirurgia
     icon: user-md
   - heading: Dentálna hygiena
     icon: teeth-open

@@ -1,8 +1,8 @@
 {
-  "name": "stoma-pozsonyi-hugo",
+  "name": "stoma-pozsonyi-sk",
   "version": "1.0.0",
   "description": "Stoma Pozsonyi is business site for dental ambulance.",
-  "repository": "ofabry/stoma-pozsonyi",
+  "repository": "ofabry/stomapozsonyi.sk",
   "main": "index.js",
   "scripts": {
     "lint": "eslint src",
@@ -66,5 +66,9 @@
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10",
     "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "html-minifier-terser": "^6.0.0"
   }
 }

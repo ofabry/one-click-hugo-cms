@@ -1,0 +1,64 @@
+title: "STOMA POZSONYI"
+baseurl: /
+copyright: "© 2021 STOMA POZSONYI, s.r.o."
+
+googleAnalytics: "G-5D6KFRTYJQ"
+enableEmoji: true
+
+defaultContentLanguage: sk
+languages:
+  sk:
+    languageName: Slovenčina
+    languageCode: sk-SK
+    weight: 1
+    menu:
+      main:
+        - identifier: about
+          name: O nás
+          url: /about
+          weight: -100
+        - identifier: products
+          name: Služby
+          url: /products
+          weight: -90
+        - identifier: values
+          name: Cenník
+          url: /values
+          weight: -80
+        - identifier: post
+          name: Blog
+          url: /post
+          weight: -70
+        - identifier: contact
+          name: Kontakt
+          url: /contact
+          weight: -60
+  en:
+    languageName: English
+    languageCode: en-US
+    weight: 2
+    menu:
+      main:
+        - identifier: about
+          name: About
+          url: /about
+          weight: -100
+        - identifier: products
+          name: Services
+          url: /products
+          weight: -90
+        - identifier: values
+          name: Pricing
+          url: /values
+          weight: -80
+        - identifier: post
+          name: Blog
+          url: /post
+          weight: -70
+        - identifier: contact
+          name: Contact
+          url: /contact
+          weight: -60
+
+params:
+  showLanguageSelector: true

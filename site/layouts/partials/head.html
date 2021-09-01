@@ -1,0 +1,83 @@
+<!-- Favicons -->
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#ff4400">
+<meta name="theme-color" content="#fff">
+<meta name="author" content="Dr. Martin - www.doktormartin.sk" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="business.business">
+<meta property="og:title" content="STOMA POZSONYI">
+<meta property="og:url" content="/">
+<meta property="og:image" content="/img/og-image.jpg">
+
+<!-- Webpack styles -->
+{{ $stylesheet := .Site.Data.webpack.main }}
+{{ with $stylesheet.css }}
+<link href="{{ relURL . }}" rel="stylesheet">
+{{ end }}
+
+<!-- Language Links -->
+{{ if .IsTranslated }}
+{{ range .Translations }}
+<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
+{{ end }}
+{{ end }}
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
+
+<!-- Netlify Identity -->
+{{ if .IsHome }}
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+{{ end }}
+
+<!-- pdf.js -->
+<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2/build/pdf.min.js"></script>
+
+<!-- Google Analytics -->
+{{ $code := .Site.GoogleAnalytics }}
+{{ with $code }}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ . }}');
+</script>
+{{ end }}
+
+<!-- Custom CSS -->
+<style>
+    .features .icon {
+        display:inline-block;
+        width:60px;
+        height:60px;
+        font-size:30px;
+        line-height:60px;
+        border-radius:100px;
+        color:#fff
+    }
+    .features:nth-of-type(1) .icon {
+        background:linear-gradient(to bottom right, #32d6fb 0%, #5558ed 100%);
+        box-shadow:0 8px 10px #96eafd;
+    }
+    .features:nth-of-type(2) .icon {
+        background:linear-gradient(to bottom right, #fc5f3c 0%, #ff55d3 100%);
+        box-shadow:0 8px 10px #feb1a0
+    }
+    .features:nth-of-type(4) .icon {
+        background:linear-gradient(to bottom right, #1cf196 0%, #36a6bf 100%);
+        box-shadow:0 8px 10px #7cf7c2
+    }
+    .features:nth-of-type(3) .icon {
+        background:linear-gradient(to bottom right, #fad470 0%, #f96933 100%);
+        box-shadow:0 8px 10px #fdf2d3
+    }
+    li.active {
+        font-weight: bold;
+    }
+</style>

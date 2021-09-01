@@ -1,10 +1,10 @@
 <div class="bg-off-white pv4">
 	<div class="ph3 mw7 center">
 
-		<h3 class="f3 b lh-title mb3">Najnovšie články</h3>
+		<h3 class="f3 b lh-title mb3">{{ i18n "latestPosts" }}</h3>
 
 		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
-			{{ range first 4 (where .Site.RegularPages "Type" "post") }}
+			{{ range first 4 (where .Sites.First.RegularPages "Type" "post") }}
 				<div class="ph1-ns w-50-ns flex">
 					{{ .Render "li" }}
 				</div>
@@ -12,7 +12,7 @@
 		</div>
 
 		<div class="tc">
-			<a href="/post" class="btn raise">Zobraziť viac</a>
+			<a href="/post" class="btn raise">{{ i18n "showMore" }}</a>
 		</div>
 
 	</div>
