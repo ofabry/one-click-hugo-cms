@@ -7,6 +7,8 @@ backend:
 media_folder: "site/static/img"
 public_folder: "img"
 
+site_url: https://stomapozsonyi.sk
+
 collections:
   - name: "post"
     label: "Post"
@@ -85,8 +87,8 @@ collections:
         name: "about"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Intro, name: intro, widget: markdown}
+          - {label: Image, name: image, widget: image, required: false}
+          - {label: Intro, name: intro, widget: markdown, required: false}
           - label: Team
             name: team
             widget: list
