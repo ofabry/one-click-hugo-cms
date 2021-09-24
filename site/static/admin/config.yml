@@ -51,12 +51,9 @@ collections:
             name: contact_entries
             widget: list
             fields:
-              - label: Heading
-                name: heading
-                widget: string
-              - label: Text
-                name: text
-                widget: text
+              - {label: Heading, name: heading, widget: string}
+              - {label: Text, name: text, widget: text}
+              - {label: Type, name: type, widget: select, options: ["other", "phone", "email", "address"]}
       - file: "site/content/products/_index.md"
         label: "Products Page"
         name: "products"
