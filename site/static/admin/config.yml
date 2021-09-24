@@ -35,11 +35,11 @@ collections:
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
           - {label: "Products", name: products, widget: list, fields: [
-              {label: "Icon", name: "icon", widget: string},
-              {label: "Heading", name: "heading", widget: string}]}
-          - {label: "Values", name: "values", widget: "object", fields: [
               {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
+              {label: "Icon", name: "icon", widget: string}]}
+          #- {label: "Values", name: "values", widget: "object", fields: [
+          #    {label: "Heading", name: "heading", widget: string},
+          #    {label: "Text", name: "text", widget: "text"}]}
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"

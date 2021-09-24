@@ -9,4 +9,4 @@ team:
 - name: Janette Mészarosová
   position: nurse
 ---
-#### This is our team:
+#### This is our team of specialists

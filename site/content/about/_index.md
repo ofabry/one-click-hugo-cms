@@ -9,4 +9,4 @@ team:
   - name: Janette Mészarosová
     position: sestrička
 ---
-### Toto je náš tím odborníkov:
+### Toto je náš tím odborníkov
