@@ -3,7 +3,7 @@ title: Kontakt
 logo: img/logo.png
 contact_entries:
   - heading: Telefón
-    text: 031/7878106
+    text: "0317878106"
     type: phone
   - heading: Email
     text: info@stomapozsonyi.sk
