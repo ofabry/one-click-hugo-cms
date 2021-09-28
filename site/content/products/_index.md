@@ -1,7 +1,7 @@
 ---
 title: Služby
 type: products
-image: img/ordinacia.jpg
+image: img/243349065_4762490787128816_8681145051271507259_n.jpg
 intro:
   heading: Poskytované služby
   description: >
