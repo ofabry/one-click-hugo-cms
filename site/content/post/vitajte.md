@@ -1,6 +1,6 @@
 ---
-title: Spustenie webovej stránky
+title: Nerodinujeme
 date: 2021-08-17T22:17:53.658Z
-description: Krátke info ku spusteniu webu.
+description: Dnes (piatok 8.10.2021) pre chorobu neordinujeme.
 ---
-Vítame Vás na novej webovej stránke pre našu zubnú ordináciu. Plánujeme sem postupne pridávať užitočné informácie pre naich pacientov.
+Ospravedlňujeme sa našim pacientom, ale pre náhlu chorobu dnes 8.10.2021 neordinujeme. Ďakujeme Vám za pochopenie.
