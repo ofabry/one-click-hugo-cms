@@ -1,30 +1,33 @@
 ---
-title: Vyberanie zubu
+title: Totálne protézy
 date: 2021-11-06T15:43:41.279Z
-description: Čo robiť a nerobiť po vybratí zubu
+description: Ako prebieha výroba totálnej náhrady
+image: img/243321560_983639418864285_3474320303671109063_n.jpg
 ---
-Vyberanie zubov je pomerne častý zákrok. Pacienti sa veľa krát pýtajú, čo môžu alebo nemôžu robiť po vybratí zubu. V tomto texte nájdete niektoré základné informácie, ktoré Vám pomôžu pred samotným zákrokom a po ňom.
+Totálna náhrada je typ protézy, ktorá sa zhotovuje ak pacient prišiel o všetky zuby. Mala by sa zhotoviť 6 mesiacov po poslednej extrakcii, ak chcem zabezpečiť aby Vám vydržala niekoľko rokov, bez výraznejších úprav.
 
-**Čaká ma vyberanie zubu, ako sa mám pripraviť?**
+Postup pozostáva z 5 fáz, ktoré pozostávajú z vytvorenia kópie situácie v ústach pacienta, rekonštrukcie vzájomného postavenia horného a dolného zuboradia a výberu farby a tvaru zubov.
 
-\- pred zákrokom niečo malé zjesť
+**1. fáza- základné odtlačky**
 
-\- ak pravidelne užívate lieky (na tlak, cukrovku, alergiu, zrážanie krvi,...), informujte náš tím prosím vopred
+V tejto fáze Vám zhotovíme základne odtlačky úst, na základe ktorých si zubným technik zhotoví predbežný model situácie v ústach. Na ňom potom na mieru zhotoví odtlačkové lyžice. 
 
-\- ak u Vás aktuálne prebieha rádio-, alebo chemoterapia, poprípade užívate lieky proti rednutiu kostí, informujte nás
+**2. fáza- individuálne odtlačky**
 
-\- užiť pred zákrokom lieky proti bolesti nie je nutné, pred zákrokom Vám bude podaná lokálna anestézia
+Pomocou na mieru zhotovených odtlačkových lyžíc Vám v ambulancii zhotovíme definitívny odtlačok úst. Na základe toho odtlačku si technik zhotoví model, presnú kópiu situácie v ústach. Na tomto modeli potom vyrobí šablóny z vosku.
 
-**Čo robiť a čomu sa vyvarovať po vybratí zubu?**
+**3.- fáza- voskové šablóny**
 
-\- k miestu po vybratom zube sa treba správať ako hlbšej rane, treba ju s prestávkami chladiť, jesť zo začiatku na opačnej strane
+Voskovými šablónami Vám v ambulancii zaregistrujeme vzájomnú polohu sánky a čeľuste, veľkosť a farbu zubov. S týmito informáciami Vám technik pripraví model budúcej náhrady so zubami osadenými vo voskovom tele náhrady.
 
-\- na druhý deň po vybratí zubu môžete ranu vyplachovať repíkom, alebo kamilkami. 2 krát za deň stačí, ak vyberanie išlo bez problémov, väčšinou nie je treba ani vyplachovať
+**4. fáza- skúška zubov vo vosku**
 
-\-nefajčiť, alebo obmedziť na minimum. Cigaretový dym zhoršuje hojenie rany
+V tejto fáze je protézka takmer hotová, skontroluje sa či sedí veľkosť, farba, tvar zubov a ich vzájomné postavenie. Ak áno náhrada sa môže dokončiť.
 
-\- týždeň sa vyhýbať športovým aktivitám a tréningu
+**5. fáza- hotová totálna náhrada**
 
-\-slabé krvácanie po vyberaní je normálne, ak by Vám ale z rany tiekla krv dlhšie ako 2 hodiny, kontaktuje nás
+Po dokončení náhrady v laboratóriu sa v ambulancii ešte náhrada odskúša, poprípade jemne upraví ak niekde tlačí.
 
-\-zrazená krv v rane po pár dňoch zbelie, je to normálne
+
+
+Ak by Vás náhrada začala tlačiť až po pár dňoch od odovzdania, neváhajte nás kontaktovať.
